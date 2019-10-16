@@ -1,3 +1,3 @@
-[submodule "wasm-webp"]
-	path = wasm-webp
+[submodule "src/kenchris/wasm-webp"]
+	path = src/kenchris/wasm-webp
 	url = https://github.com/kenchris/wasm-webp.git
