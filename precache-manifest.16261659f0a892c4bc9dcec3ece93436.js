@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0fe0868f10e0acf02c454f994cafa04",
+    "revision": "f72bfff2ffebeb66f105119e07b1b39a",
     "url": "/webp-helper/index.html"
   },
   {
