@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/webp-helper/static/css/main.d63bb6ca.chunk.css",
-    "main.js": "/webp-helper/static/js/main.d853e18f.chunk.js",
-    "main.js.map": "/webp-helper/static/js/main.d853e18f.chunk.js.map",
+    "main.js": "/webp-helper/static/js/main.9a304dae.chunk.js",
+    "main.js.map": "/webp-helper/static/js/main.9a304dae.chunk.js.map",
     "runtime-main.js": "/webp-helper/static/js/runtime-main.fe28db89.js",
     "runtime-main.js.map": "/webp-helper/static/js/runtime-main.fe28db89.js.map",
     "static/js/2.28dfd26f.chunk.js": "/webp-helper/static/js/2.28dfd26f.chunk.js",
     "static/js/2.28dfd26f.chunk.js.map": "/webp-helper/static/js/2.28dfd26f.chunk.js.map",
     "index.html": "/webp-helper/index.html",
-    "precache-manifest.bf6d09bff66649db8a1f8f14a353ae38.js": "/webp-helper/precache-manifest.bf6d09bff66649db8a1f8f14a353ae38.js",
+    "precache-manifest.d971bf510c8b11d3a35be697f70412e7.js": "/webp-helper/precache-manifest.d971bf510c8b11d3a35be697f70412e7.js",
     "service-worker.js": "/webp-helper/service-worker.js",
     "static/css/main.d63bb6ca.chunk.css.map": "/webp-helper/static/css/main.d63bb6ca.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.fe28db89.js",
     "static/js/2.28dfd26f.chunk.js",
     "static/css/main.d63bb6ca.chunk.css",
-    "static/js/main.d853e18f.chunk.js"
+    "static/js/main.9a304dae.chunk.js"
   ]
 }

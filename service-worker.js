@@ -15,7 +15,7 @@ importScripts("/webp-helper/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/webp-helper/workbox-v4.3.1"});
 
 importScripts(
-  "/webp-helper/precache-manifest.bf6d09bff66649db8a1f8f14a353ae38.js"
+  "/webp-helper/precache-manifest.d971bf510c8b11d3a35be697f70412e7.js"
 );
 
 self.addEventListener('message', (event) => {
