@@ -193,7 +193,7 @@ function App() {
           <small>webp_wasm来自<a href="https://github.com/kenchris/wasm-webp" >kenchris/wasm-webp</a></small>
         </p>
       </footer>
-      <a className="github-fork-ribbon" href="http://url.to-your.repo" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+      <a className="github-fork-ribbon" href="https://github.com/eynol/webp-helper" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     </div >
   );
 }

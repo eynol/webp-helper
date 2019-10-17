@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# webp_wasm.js &  webp_wasm.wasm 
+
+These files come from [https://github.com/kenchris/wasm-webp](https://github.com/kenchris/wasm-webp).
+
+
 ## Available Scripts
 
 In the project directory, you can run:
