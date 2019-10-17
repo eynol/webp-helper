@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/webp-helper/static/css/main.d4478465.chunk.css",
+    "main.js": "/webp-helper/static/js/main.5dd58488.chunk.js",
+    "main.js.map": "/webp-helper/static/js/main.5dd58488.chunk.js.map",
+    "runtime-main.js": "/webp-helper/static/js/runtime-main.fe28db89.js",
+    "runtime-main.js.map": "/webp-helper/static/js/runtime-main.fe28db89.js.map",
+    "static/js/2.28dfd26f.chunk.js": "/webp-helper/static/js/2.28dfd26f.chunk.js",
+    "static/js/2.28dfd26f.chunk.js.map": "/webp-helper/static/js/2.28dfd26f.chunk.js.map",
+    "index.html": "/webp-helper/index.html",
+    "precache-manifest.cae9023822750e4d534b33d5424f7ea4.js": "/webp-helper/precache-manifest.cae9023822750e4d534b33d5424f7ea4.js",
+    "service-worker.js": "/webp-helper/service-worker.js",
+    "static/css/main.d4478465.chunk.css.map": "/webp-helper/static/css/main.d4478465.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe28db89.js",
+    "static/js/2.28dfd26f.chunk.js",
+    "static/css/main.d4478465.chunk.css",
+    "static/js/main.5dd58488.chunk.js"
+  ]
+}
