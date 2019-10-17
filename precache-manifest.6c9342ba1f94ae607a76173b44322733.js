@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6a6de7102a45588447532d1766eacb2",
+    "revision": "93ec39eecdabd3c60ea82359d232cf9f",
     "url": "/webp-helper/index.html"
   },
   {
-    "revision": "22c40253827ae0305f15",
+    "revision": "5f4eec0c57485869f346",
     "url": "/webp-helper/static/css/main.d4478465.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webp-helper/static/js/2.28dfd26f.chunk.js"
   },
   {
-    "revision": "22c40253827ae0305f15",
-    "url": "/webp-helper/static/js/main.5dd58488.chunk.js"
+    "revision": "5f4eec0c57485869f346",
+    "url": "/webp-helper/static/js/main.d7c658a2.chunk.js"
   },
   {
     "revision": "f1943f1cebf82a32dec1",
