@@ -11,7 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/webp-helper/workbox-v4.3.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/webp-helper/workbox-v4.3.1"});
 
 importScripts(
   "/webp-helper/precache-manifest.16261659f0a892c4bc9dcec3ece93436.js"
@@ -37,3 +38,5 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/w
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
+
+workbox.routing.registerRoute(/wasm/, new workbox.strategies.StaleWhileRevalidate({ "fetchOptions":{"mode":"no-cors"},"matchOptions":{"ignoreSearch":true}, plugins: [] }), 'GET');
