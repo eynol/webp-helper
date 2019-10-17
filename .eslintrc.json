@@ -1,0 +1,21 @@
+{
+  "extends": "react-app",
+  "env": {
+    "worker": true,
+    "browser": true,
+    "es6": true,
+    "serviceworker": true
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "rules": {
+        "no-restricted-globals": [0, "event", "fdescribe"]
+      }
+    }
+  ],
+  "rules": {
+    "no-restricted-globals": [0, "event", "fdescribe"],
+    "no-undef": 0
+  }
+}

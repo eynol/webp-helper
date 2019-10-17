@@ -1,9 +1,41 @@
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  position: absolute;
+  top: 40px;
+  font-size: 36px;
+  /* font-weight: bold; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 13px;
+  color: #ccc9c9;
+  font-variant: all-small-caps;
+  left: 60px;
+}
+
+.hide {
+  display: none;
+}
+
+.silent {
+  pointer-events: none;
+}
+
+.drop-mask {
+  position: fixed;
+  pointer-events: all;
+  flex-direction: column;
+  top: 0;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
 }
 
 .App-header {
@@ -17,6 +49,181 @@
   color: white;
 }
 
-.App-link {
+a:visited {
+  color: currentColor;
+}
+
+.link {
   color: #09d3ac;
 }
+
+.clickable {
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #09d3ac;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.12);
+  transition: color 300ms;
+}
+
+.btn:hover {
+  background-color: #08dcb1db;
+}
+
+.btn:active {
+  background-color: #07b693;
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  color: white;
+}
+
+small {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.hover-effect .item {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 0;
+  overflow: hidden;
+  transition: width .3s;
+}
+
+.hover-effect:hover .item,
+.hover-effect .item.link {
+  width: initial;
+}
+
+
+/*!
+ * "Fork me on GitHub" CSS ribbon v0.2.3 | MIT License
+ * https://github.com/simonwhitaker/github-fork-ribbon-css
+*/
+.github-fork-ribbon {
+  width: 12.1em;
+  height: 12.1em;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+  font-size: 13px;
+  text-decoration: none;
+  text-indent: -999999px
+}
+
+.github-fork-ribbon.fixed {
+  position: fixed
+}
+
+.github-fork-ribbon:active,
+.github-fork-ribbon:hover {
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.github-fork-ribbon:after,
+.github-fork-ribbon:before {
+  position: absolute;
+  display: block;
+  width: 15.38em;
+  height: 1.54em;
+  top: 3.23em;
+  right: -3.23em;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+
+.github-fork-ribbon:before {
+  content: "";
+  padding: .38em 0;
+  background-color: #a00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .15)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+  -webkit-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, .5);
+  pointer-events: auto
+}
+
+.github-fork-ribbon:after {
+  content: attr(data-ribbon);
+  color: #fff;
+  font: 700 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.54em;
+  text-decoration: none;
+  text-shadow: 0 -.08em rgba(0, 0, 0, .5);
+  text-align: center;
+  text-indent: 0;
+  padding: .15em 0;
+  margin: .15em 0;
+  border-width: .08em 0;
+  border-style: dotted;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, .7)
+}
+
+.github-fork-ribbon.left-bottom,
+.github-fork-ribbon.left-top {
+  right: auto;
+  left: 0
+}
+
+.github-fork-ribbon.left-bottom,
+.github-fork-ribbon.right-bottom {
+  top: auto;
+  bottom: 0
+}
+
+.github-fork-ribbon.left-bottom:after,
+.github-fork-ribbon.left-bottom:before,
+.github-fork-ribbon.left-top:after,
+.github-fork-ribbon.left-top:before {
+  right: auto;
+  left: -3.23em
+}
+
+.github-fork-ribbon.left-bottom:after,
+.github-fork-ribbon.left-bottom:before,
+.github-fork-ribbon.right-bottom:after,
+.github-fork-ribbon.right-bottom:before {
+  top: auto;
+  bottom: 3.23em
+}
+
+.github-fork-ribbon.left-top:after,
+.github-fork-ribbon.left-top:before,
+.github-fork-ribbon.right-bottom:after,
+.github-fork-ribbon.right-bottom:before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg)
+}
+
+
